@@ -1,0 +1,11 @@
+.header_area.header_area_2 {
+    background: #e2e2e2;
+  }
+  
+  .header_area.header_area_2 .navbar .nav .nav-item .nav-link {
+      padding: 0px;
+  }
+  
+  .header_area.header_area_2 .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
+      color: #f5204b;
+  }

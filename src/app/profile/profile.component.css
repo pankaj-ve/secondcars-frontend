@@ -1,0 +1,80 @@
+.widget-box {
+    overflow: hidden;
+    background: none repeat scroll 0 0 #fafafa;
+    border: 1px solid #cdcdcd;
+    clear: both;
+    margin-top: -1px;
+    margin-bottom: 16px;
+    position: relative;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.widget-title {
+    background-image: none;
+    background-color: #fafafa;
+    border-bottom: 1px solid #d9d9d9;
+    height: 36px;
+    -webkit-box-shadow: 0 1px 0 #fff inset;
+    box-shadow: 0 1px 0 #fff inset;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.nopadding {
+    padding: 0!important;
+}
+
+.updated_form>span {
+    display: inline-block;
+    width: 45%;
+    margin: 35px 0 0 35px;
+    font-size: 13px;
+    color: #434753;
+}
+
+.name_updated {
+    background: url(https://stimg.cardekho.com/images/newcarimg/details_name-min.jpg)no-repeat scroll left center;
+    padding: 4px 0 0 35px;
+}
+
+.mobile_updated, .location_updated {
+    margin-bottom: 35px!important;
+}
+
+.mobile_updated {
+    background: url(https://stimg.cardekho.com/images/newcarimg/details_mobile-min.jpg)no-repeat scroll left center;
+    padding: 4px 0 0 35px;
+}
+
+.email_updated {
+    background: url(https://stimg.cardekho.com/images/newcarimg/details_email-min.jpg) no-repeat scroll left center;
+    padding: 4px 0 0 35px;
+}
+
+.location_updated {
+    background: url(https://stimg.cardekho.com/images/newcarimg/details_location-min.jpg) no-repeat scroll left center;
+    padding: 4px 0 0 35px;
+}
+
+.widget-box .widget-title h5 {
+    color: #666;
+    text-shadow: 0 1px 0 #fff;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px;
+    line-height: 12px;
+    margin: 0;
+}
+
+.user_edit {
+    float: right;
+    margin: 8px 20px 0 0;
+}
+
+
+
+
