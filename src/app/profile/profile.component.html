@@ -14,16 +14,19 @@
             <div class="widget-title">
                 <h5>Personal Information</h5>
                 <span class="edit_listed user_edit">
-                  <a class="edit_link personalinfo_edit" style="color: #428bca;" href="javascript:void(0); createGAClickEventTrackingAdWords('My_Account', 'cta', 'Edit-Account_Details');">Edit</a>
+                  <a class="edit_link personalinfo_edit" style="color: #428bca;" href="javascript:void(0);">Edit</a>
            </span>
             </div>
             <div class="widget-content nopadding" style="width:100%;display:inline-block">
                 
                 <div class="updated_form" id="personalinformation">
-                    <span class="name_updated" id="nameshown" title="Name">Pankaj</span>
-                    <span class="email_updated" title="E-mail">pankajkumar1@virtualemployee.com</span>
-                    <span class="mobile_updated" title="Mobile no."><span>+91-</span><span id="mobileshown">9599827710</span></span>
-                    <span class="location_updated" id="pincodeshown" title="Location">110072, New Delhi</span>
+                    <span class="name_updated" id="nameshown" title="Name">{{userData.firstName}} {{userData.lastName}}</span>
+                    <span class="email_updated" title="E-mail">{{userData.email}}</span>
+                    <span class="mobile_updated" title="Mobile no.">{{userData.phone}}</span>
+                    <span class="name_updated" id="pincodeshown" title="Status">
+                      <span *ngIf="userData.status==true" style="color:green">Active</span>
+                      <span *ngIf="userData.status==false" style="color:red">Inactive</span>
+                    </span>
                 </div>
             </div>
         </div>
